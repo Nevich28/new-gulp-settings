@@ -9,4 +9,16 @@ body {
         font-weight: 700;
     }
     background: url("@img/bread.jpg") 0 0 no-repeat;
+    
+    
+}
+
+.icon__class {
+    .social__icon {
+        fill: blue;
+        transition: 0.5s;
+        &:hover {
+            fill: yellowgreen;
+        }
+    }
 }

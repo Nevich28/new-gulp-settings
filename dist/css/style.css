@@ -39,4 +39,15 @@ body span {
   font-weight: 700;
 }
 
+.icon__class .social__icon {
+  fill: blue;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.icon__class .social__icon:hover {
+  fill: yellowgreen;
+}
+
 .webp body { background: url(../img/bread.webp) 0 0 no-repeat; }
